@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+.quiz-header {
+  background-color: aqua;
+}
+
+.headline-quiz-app {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.Quiz-Container {
+  position: relative;
+  background-color: rgba(127, 219, 255, 0.466);
+  border: solid;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.classes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.class-element {
+  list-style: none;
+  border: solid 0.1rem;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.3rem;
+  background-color: antiquewhite;
+}
+
+.class-element:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.card-bookmark {
+  position: absolute;
+  right: 0rem;
+  top: 0.1rem;
+}
+
+.button-answer {
+  display: flex;
+  margin: auto;
+}
+
+.button-answer:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.quiz-footer {
+  display: flex;
+  background-color: aqua;
+  padding: 0.5rem;
+  justify-content: space-around;
+  position: sticky;
+}
+
+.footer-logo:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.headline-about-me {
+  display: flex;
+}
+.image {
+  _display: flex;
+  _justify-content: center;
+  position: relative;
+  left: 75px;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 150px;
+  border-style: solid;
+  color: black;
+  opacity: 0.9;
+}
+
+.About-me {
+  background-color: rgba(127, 219, 255, 0.466);
+  border: solid;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.skill {
+  list-style: none;
+  background-color: rgba(127, 219, 255, 0.466);
+  border: solid;
+  padding: 1rem;
+  margin: 2rem;
+}
+.skill-list {
+  list-style: none;
+  border: solid 0.1rem;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.3rem;
+  background-color: antiquewhite;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.2rem;
+}
+
+.skill-list {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.Logout-button {
+  display: flex;
+  padding: 0.2rem 1rem;
+  margin: auto;
+}
+
+.Logout-button:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card_bookmark--svg {
+  cursor: pointer;
+}
+
+.svg1 {
+  fill: red;
+}
