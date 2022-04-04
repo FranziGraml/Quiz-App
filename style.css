@@ -16,6 +16,9 @@
   position: relative;
   background-color: rgba(127, 219, 255, 0.466);
   border: solid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 20px;
   padding: 1rem;
   margin: 2rem;
 }
@@ -31,10 +34,12 @@
   padding: 0.3rem 1.5rem;
   border-radius: 0.3rem;
   background-color: antiquewhite;
+  width: 10px;
+  font-size: small;
 }
 
 .class-element:hover {
-  background-color: hotpink;
+  background-color: red;
   cursor: pointer;
 }
 
@@ -50,7 +55,7 @@
 }
 
 .button-answer:hover {
-  background-color: hotpink;
+  background-color: red;
   cursor: pointer;
 }
 
@@ -69,6 +74,7 @@
 .footer-logo:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
+  color: red;
 }
 
 .headline-about-me {
@@ -90,6 +96,9 @@
 .About-me {
   background-color: rgba(127, 219, 255, 0.466);
   border: solid;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   padding: 1rem;
   margin: 2rem;
 }
@@ -98,10 +107,14 @@
   list-style: none;
   background-color: rgba(127, 219, 255, 0.466);
   border: solid;
-  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  padding: 0.2rem;
   margin: 2rem;
+  height: 120px;
 }
-.skill-list {
+.skill_list {
   list-style: none;
   border: solid 0.1rem;
   padding: 0.3rem 1.5rem;
@@ -116,19 +129,19 @@
   padding: 0.2rem;
 }
 
-.skill-list {
+.skill_list {
   background-color: whitesmoke;
   cursor: pointer;
 }
 
-.Logout-button {
+.Logout_button {
   display: flex;
   padding: 0.2rem 1rem;
   margin: auto;
 }
 
-.Logout-button:hover {
-  background-color: hotpink;
+.Logout_button:hover {
+  background-color: red;
   cursor: pointer;
 }
 
