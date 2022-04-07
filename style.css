@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+.quiz-header {
+  background-color: rgba(236, 166, 166, 0.472);
+}
+
+.headline-quiz-app {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.Quiz-Container {
+  position: relative;
+  border: solid;
+  box-shadow: rgba(197, 64, 75, 0.52) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0) 0px 30px 60px -30px,
+    rgba(182, 93, 20, 0.65) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.classes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0.5rem 0 0.2rem 0;
+  padding: 0;
+}
+.class-element {
+  border: solid 0.1rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 0.3rem;
+  background-color: rgba(249, 212, 189, 0.568);
+  font-size: medium;
+}
+
+.class-element:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.card-bookmark {
+  position: absolute;
+  right: 0rem;
+  top: 0.1rem;
+}
+
+.button-answer {
+  display: flex;
+  margin: auto;
+}
+
+.button-answer:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.quiz-footer {
+  display: flex;
+  background-color: rgba(236, 166, 166, 0.472);
+  padding: 0.5rem;
+  justify-content: space-around;
+  position: sticky;
+}
+
+.footer-logo {
+  cursor: pointer;
+}
+.footer-logo:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+  color: red;
+}
+
+.headline-about-me {
+  display: flex;
+}
+.image {
+  _display: flex;
+  _justify-content: center;
+  position: relative;
+  left: 75px;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50px;
+  border-style: solid;
+  color: black;
+  opacity: 0.9;
+}
+
+.About-me {
+  border: solid;
+  border-radius: 20px;
+  box-shadow: rgba(197, 64, 75, 0.52) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0) 0px 30px 60px -30px,
+    rgba(182, 93, 20, 0.65) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.skill {
+  list-style: none;
+
+  border: solid;
+  box-shadow: rgba(233, 14, 32, 0.76) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0) 0px 30px 60px -30px,
+    rgba(182, 93, 20, 0.65) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  padding: 0.2rem;
+  margin: 2rem;
+  height: 120px;
+}
+.skill_list {
+  list-style: none;
+  border: solid 0.1rem;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.3rem;
+  background-color: antiquewhite;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.2rem;
+}
+
+.skill_list {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.Logout_button {
+  display: flex;
+  padding: 0.2rem 1rem;
+  margin: auto;
+}
+
+.Logout_button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card_bookmark--svg {
+  cursor: pointer;
+}
+
+.svg1 {
+  fill: red;
+}

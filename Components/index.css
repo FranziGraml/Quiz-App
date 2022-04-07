@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.quiz-header {
+  background-color: aqua;
+}
+
+.headline-quiz-app {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.Quiz-Container {
+  background-color: rgba(127, 219, 255, 0.466);
+  border: solid;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.classes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.class-element {
+  list-style: none;
+  border: solid 0.1rem;
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.3rem;
+  background-color: antiquewhite;
+}
+
+.class-element:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.card-bookmark {
+  position: absolute;
+  right: 5rem;
+  top: 5.5rem;
+}
+
+.button-answer {
+  display: flex;
+  margin: auto;
+}
+
+.button-answer:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+.quiz-footer {
+  display: flex;
+  background-color: aqua;
+  padding: 0.5rem;
+  justify-content: space-around;
+}
+
+.footer-logo:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
