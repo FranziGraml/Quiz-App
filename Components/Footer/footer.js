@@ -5,9 +5,13 @@ export default function Footer(footerElement, siteElement) {
   const profileSite = siteElement.querySelector('[data-js="profile_site"]');
 
   const houseFooter = footerElement.querySelector('[data-js="footer_home"]');
-  const bookFooter = footerElement.querySelector('[data-js="footer_bookmarks"]');
+  const bookFooter = footerElement.querySelector(
+    '[data-js="footer_bookmarks"]'
+  );
   const createFooter = footerElement.querySelector('[data-js="footer_create"]');
-  const profileFooter = footerElement.querySelector('[data-js="footer_profile"]');
+  const profileFooter = footerElement.querySelector(
+    '[data-js="footer_profile"]'
+  );
 
   houseFooter.addEventListener("click", () => {
     indexSite.classList.remove("hidden");
